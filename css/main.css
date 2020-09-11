@@ -1,7 +1,18 @@
 html {
   font-family: Open Sans, sans-serif;
   list-style: 1.5;
+  box-sizing: border-box;
   background-color: #ccc;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+}
+
+body {
+  margin: 0 auto;
 }
 
 a {
@@ -18,8 +29,26 @@ h2 {
 li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 img {
+  display: block;
   width: 5rem;
+}
+
+hgroup, p {
+  text-align: left;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+p {
+  width: 24rem;
+}
+
+section {
+
 }
